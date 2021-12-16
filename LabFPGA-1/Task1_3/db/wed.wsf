@@ -20,17 +20,17 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("Z:/5 сем машинки/machin-/LabFPGA-1/Task1_2/db/nda1_2.sim.cvwf")
+VECTOR("Z:/5 сем машинки/machin-/LabFPGA-1/Task1_3/db/nda1_3.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 65166;
-		NUMERATOR = 908;
-		DENOMINATOR = 63352;
+		ZEND = 80000;
+		NUMERATOR = 1162;
+		DENOMINATOR = 80000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
-		PERIOD = 10000;
+		PERIOD = 5000;
 		OFFSET = 0;
 		DUTY_CYCLE = 50;
 	}
@@ -62,51 +62,8 @@ VECTOR("Z:/5 сем машинки/machin-/LabFPGA-1/Task1_2/db/nda1_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "F";
+		SIGNAL = "D";
 		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-}
-
-VECTOR("Z:/5 сем машинки/machin-/LabFPGA-1/Task1_2/nda1_2.vwf")
-{
-	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 1000000;
-		NUMERATOR = 20;
-		DENOMINATOR = 1000;
-		TOP_INDEX = 0;
-	}
-	CLOCK{
-		PERIOD = 20000;
-		OFFSET = 0;
-		DUTY_CYCLE = 50;
-	}
-	RANDOM_VALUE{
-		INTERVAL_TYPE = HALF_GRID;
-	}
-	LINE{
-		SIGNAL = "A";
-		INDEX = 0;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "B";
-		INDEX = 1;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "C";
-		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -114,7 +71,7 @@ VECTOR("Z:/5 сем машинки/machin-/LabFPGA-1/Task1_2/nda1_2.vwf")
 	}
 	LINE{
 		SIGNAL = "F";
-		INDEX = 3;
+		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
