@@ -1,0 +1,61 @@
+|coder_stand_nda2_2
+A <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+SW1 => inst4.IN0
+SW2 => inst5.IN0
+SW3 => inst6.IN0
+SW4 => inst7.IN0
+B <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+p127 <= <GND>
+p104 <= <VCC>
+p105 <= <VCC>
+p106 <= <VCC>
+p135 <= <VCC>
+p134 <= <VCC>
+p133 <= <VCC>
+p128 <= <VCC>
+p118 <= <VCC>
+
+
+|coder_stand_nda2_2|coder_nda2_2:inst
+A <= for_A.DB_MAX_OUTPUT_PORT_TYPE
+S2 => n4_2.IN0
+S2 => n2.IN0
+S2 => n2.IN1
+S2 => n4_2_1.IN1
+S2 => n4_n3_2.IN2
+S2 => n3_2.IN0
+S2 => 2_n1.IN1
+S2 => 4_2.IN0
+S4 => n4.IN0
+S4 => n4.IN1
+S4 => 4_n3_n2.IN0
+S4 => 4_3.IN1
+S4 => 4_2.IN1
+S4 => 4_n1.IN1
+S3 => n3.IN0
+S3 => n3.IN1
+S3 => n4_3_1.IN1
+S3 => n4_3_n2_n1.IN2
+S3 => 3_n2_1.IN0
+S3 => 4_3.IN0
+S3 => 3_n2.IN1
+S3 => 3_n1.IN1
+S1 => n4_3_1.IN2
+S1 => n1.IN0
+S1 => n1.IN1
+S1 => n4_n3_1.IN2
+S1 => n4_2_1.IN2
+S1 => 3_n2_1.IN2
+B <= for_b.DB_MAX_OUTPUT_PORT_TYPE
+C <= for_C.DB_MAX_OUTPUT_PORT_TYPE
+D <= for_D.DB_MAX_OUTPUT_PORT_TYPE
+E <= for_E.DB_MAX_OUTPUT_PORT_TYPE
+F <= for_F.DB_MAX_OUTPUT_PORT_TYPE
+G <= for_G.DB_MAX_OUTPUT_PORT_TYPE
+
+
