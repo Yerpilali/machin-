@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for nda2_1
-Sun Dec 19 17:04:02 2021
+Sun Dec 19 17:23:32 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
 ; Type                         ; Slack ; Required Time ; Actual Time ; From ; To ; From Clock ; To Clock ; Failed Paths ;
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
-; Worst-case tpd               ; N/A   ; None          ; 9.901 ns    ; S4   ; C2 ; --         ; --       ; 0            ;
+; Worst-case tpd               ; N/A   ; None          ; 9.901 ns    ; SW4  ; D2 ; --         ; --       ; 0            ;
 ; Total number of failed paths ;       ;               ;             ;      ;    ;            ;          ; 0            ;
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
 
@@ -92,15 +92,15 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------+-------------------+-----------------+------+----+
 ; Slack ; Required P2P Time ; Actual P2P Time ; From ; To ;
 +-------+-------------------+-----------------+------+----+
-; N/A   ; None              ; 9.901 ns        ; S4   ; C2 ;
-; N/A   ; None              ; 9.713 ns        ; S1   ; C2 ;
-; N/A   ; None              ; 9.643 ns        ; S3   ; C2 ;
-; N/A   ; None              ; 9.136 ns        ; S3   ; C1 ;
-; N/A   ; None              ; 8.982 ns        ; S4   ; C1 ;
-; N/A   ; None              ; 8.910 ns        ; S1   ; C1 ;
-; N/A   ; None              ; 8.679 ns        ; S2   ; C1 ;
-; N/A   ; None              ; 8.608 ns        ; S3   ; C0 ;
-; N/A   ; None              ; 8.383 ns        ; S1   ; C0 ;
+; N/A   ; None              ; 9.901 ns        ; SW4  ; D2 ;
+; N/A   ; None              ; 9.713 ns        ; SW3  ; D2 ;
+; N/A   ; None              ; 9.643 ns        ; SW1  ; D2 ;
+; N/A   ; None              ; 9.136 ns        ; SW1  ; D1 ;
+; N/A   ; None              ; 8.982 ns        ; SW4  ; D1 ;
+; N/A   ; None              ; 8.910 ns        ; SW3  ; D1 ;
+; N/A   ; None              ; 8.679 ns        ; SW2  ; D1 ;
+; N/A   ; None              ; 8.608 ns        ; SW1  ; D0 ;
+; N/A   ; None              ; 8.383 ns        ; SW3  ; D0 ;
 +-------+-------------------+-----------------+------+----+
 
 
@@ -110,17 +110,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sun Dec 19 17:04:02 2021
+    Info: Processing started: Sun Dec 19 17:23:32 2021
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off nda2_1 -c nda2_1 --timing_analysis_only
-Info: Longest tpd from source pin "S4" to destination pin "C2" is 9.901 ns
-    Info: 1: + IC(0.000 ns) + CELL(0.799 ns) = 0.799 ns; Loc. = PIN_V9; Fanout = 2; PIN Node = 'S4'
-    Info: 2: + IC(4.107 ns) + CELL(0.272 ns) = 5.178 ns; Loc. = LCCOMB_X27_Y7_N20; Fanout = 1; COMB Node = 'inst11'
-    Info: 3: + IC(2.781 ns) + CELL(1.942 ns) = 9.901 ns; Loc. = PIN_G14; Fanout = 0; PIN Node = 'C2'
+Info: Longest tpd from source pin "SW4" to destination pin "D2" is 9.901 ns
+    Info: 1: + IC(0.000 ns) + CELL(0.799 ns) = 0.799 ns; Loc. = PIN_V9; Fanout = 2; PIN Node = 'SW4'
+    Info: 2: + IC(4.107 ns) + CELL(0.272 ns) = 5.178 ns; Loc. = LCCOMB_X27_Y7_N20; Fanout = 1; COMB Node = 'coderLift_nda2_1:inst|inst11'
+    Info: 3: + IC(2.781 ns) + CELL(1.942 ns) = 9.901 ns; Loc. = PIN_G14; Fanout = 0; PIN Node = 'D2'
     Info: Total cell delay = 3.013 ns ( 30.43 % )
     Info: Total interconnect delay = 6.888 ns ( 69.57 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 188 megabytes
-    Info: Processing ended: Sun Dec 19 17:04:02 2021
+    Info: Processing ended: Sun Dec 19 17:23:32 2021
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

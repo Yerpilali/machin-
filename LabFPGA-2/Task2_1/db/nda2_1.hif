@@ -34,6 +34,26 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
+coderLift_nda2_1:inst
+}
+# macro_sequence
+
+# end
+# entity
+coderLiftStend_nda2_1
+# storage
+db|nda2_1.(1).cnf
+db|nda2_1.(1).cnf
+# case_insensitive
+# source_file
+coderliftstend_nda2_1.bdf
+3365ff968e16becb9206a32266ce689
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
 |
 }
 # macro_sequence

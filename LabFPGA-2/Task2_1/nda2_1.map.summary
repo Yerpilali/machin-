@@ -1,7 +1,7 @@
-Analysis & Synthesis Status : Successful - Sun Dec 19 17:03:56 2021
+Analysis & Synthesis Status : Successful - Sun Dec 19 17:23:25 2021
 Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
 Revision Name : nda2_1
-Top-level Entity Name : coderLift_nda2_1
+Top-level Entity Name : coderLiftStend_nda2_1
 Family : Stratix II
 Logic utilization : N/A
     Combinational ALUTs : 3
