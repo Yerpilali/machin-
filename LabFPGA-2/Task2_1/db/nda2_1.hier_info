@@ -1,0 +1,14 @@
+|coderLift_nda2_1
+C0 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+S3 => inst.IN0
+S3 => inst9.IN0
+S3 => inst8.IN1
+S1 => inst.IN1
+S1 => inst18.IN0
+C1 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+S2 => inst9.IN1
+S4 => inst10.IN0
+S4 => inst10.IN1
+C2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
