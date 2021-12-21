@@ -27,7 +27,27 @@ db|nda2_3.(0).cnf
 # case_insensitive
 # source_file
 cont_nda2_3.bdf
-d8482342212a543875d115c23a9fb01e
+d13f391fbedca75c0cbaf74adcbe945
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+cont_nda2_3:inst
+}
+# macro_sequence
+
+# end
+# entity
+stand_nda2_3
+# storage
+db|nda2_3.(1).cnf
+db|nda2_3.(1).cnf
+# case_insensitive
+# source_file
+stand_nda2_3.bdf
+7186c5e517d453baaf96d43a47f171d8
 26
 # internal_option {
 BLOCK_DESIGN_NAMING

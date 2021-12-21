@@ -1,17 +1,65 @@
-|cont_nda2_3
-A <= inst17.DB_MAX_OUTPUT_PORT_TYPE
-SW1 => gdfx_temp0.IN0
-SW2 => gdfx_temp0.IN1
-SW4 => inst3.IN0
-SW4 => inst3.IN1
-SW4 => inst14.IN0
-SW4 => inst38.IN0
-SW3 => gdfx_temp1.IN0
-B <= inst21.DB_MAX_OUTPUT_PORT_TYPE
-C <= inst26.DB_MAX_OUTPUT_PORT_TYPE
-D <= inst30.DB_MAX_OUTPUT_PORT_TYPE
-E <= inst34.DB_MAX_OUTPUT_PORT_TYPE
-F <= inst39.DB_MAX_OUTPUT_PORT_TYPE
-G <= inst43.DB_MAX_OUTPUT_PORT_TYPE
+|stand_nda2_3
+A <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+SW1 => inst4.IN0
+SW2 => inst5.IN0
+SW3 => inst6.IN0
+SW4 => inst7.IN0
+B <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+p128 <= <VCC>
+p133 <= <VCC>
+p134 <= <VCC>
+p135 <= <VCC>
+p106 <= <VCC>
+p105 <= <VCC>
+p104 <= <VCC>
+p118 <= <VCC>
+p127 <= <GND>
+
+
+|stand_nda2_3|cont_nda2_3:inst
+A <= inst.DB_MAX_OUTPUT_PORT_TYPE
+SW3 => inst45.IN0
+SW3 => inst42.IN0
+SW3 => inst42.IN1
+SW3 => inst51.IN0
+SW3 => inst51.IN1
+SW3 => inst52.IN0
+SW3 => inst52.IN1
+SW3 => inst58.IN0
+SW3 => inst63.IN0
+SW3 => inst67.IN0
+SW3 => inst67.IN1
+SW1 => inst40.IN0
+SW1 => inst40.IN1
+SW1 => inst44.IN1
+SW1 => inst54.IN1
+SW1 => inst57.IN1
+SW1 => inst59.IN0
+SW1 => inst64.IN1
+SW1 => inst66.IN0
+SW1 => inst66.IN1
+SW4 => inst47.IN0
+SW4 => inst43.IN0
+SW4 => inst43.IN1
+SW2 => inst41.IN0
+SW2 => inst41.IN1
+SW2 => inst44.IN0
+SW2 => inst55.IN1
+SW2 => inst54.IN0
+SW2 => inst57.IN0
+SW2 => inst58.IN1
+SW2 => inst59.IN1
+SW2 => inst64.IN0
+B <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 
 
