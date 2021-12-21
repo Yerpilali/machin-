@@ -20,17 +20,17 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_3/db/nda2_3.sim.cvwf")
+VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_3/cont_nda2_3.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 320000;
-		NUMERATOR = 778;
-		DENOMINATOR = 320000;
+		ZEND = 1000000;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
-		PERIOD = 10000;
+		PERIOD = 40000;
 		OFFSET = 0;
 		DUTY_CYCLE = 50;
 	}
@@ -127,17 +127,17 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_3/db/nda2_3.sim.cvwf")
 	}
 }
 
-VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_3/cont_nda2_3.vwf")
+VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_3/db/nda2_3.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 1000000;
-		NUMERATOR = 20;
-		DENOMINATOR = 1000;
+		ZEND = 320000;
+		NUMERATOR = 1198;
+		DENOMINATOR = 320000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
-		PERIOD = 40000;
+		PERIOD = 10000;
 		OFFSET = 0;
 		DUTY_CYCLE = 50;
 	}

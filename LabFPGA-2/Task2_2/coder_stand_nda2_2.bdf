@@ -35,7 +35,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 424 272 480 288))
+	(annotation_block (location)(rect -8 192 48 208))
 )
 (pin
 	(input)
@@ -52,7 +52,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 424 312 480 328))
+	(annotation_block (location)(rect -8 232 48 248))
 )
 (pin
 	(input)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 424 352 480 368))
+	(annotation_block (location)(rect -8 272 48 288))
 )
 (pin
 	(input)
@@ -86,7 +86,7 @@ applicable agreement for further details.
 		(line (pt 117 12)(pt 121 8)(line_width 1))
 	)
 	(text "GND" (rect 136 7 157 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 424 392 480 408))
+	(annotation_block (location)(rect -8 312 48 328))
 )
 (pin
 	(output)
@@ -103,7 +103,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1120 200 1176 216))
+	(annotation_block (location)(rect 656 120 712 136))
 )
 (pin
 	(output)
@@ -120,7 +120,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1120 240 1176 256))
+	(annotation_block (location)(rect 656 160 712 176))
 )
 (pin
 	(output)
@@ -137,7 +137,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1120 280 1176 296))
+	(annotation_block (location)(rect 648 200 704 216))
 )
 (pin
 	(output)
@@ -154,7 +154,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1120 320 1176 336))
+	(annotation_block (location)(rect 648 240 704 256))
 )
 (pin
 	(output)
@@ -171,7 +171,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1120 400 1176 416))
+	(annotation_block (location)(rect 640 320 696 336))
 )
 (pin
 	(output)
@@ -188,7 +188,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1120 360 1176 376))
+	(annotation_block (location)(rect 648 280 704 296))
 )
 (pin
 	(output)
@@ -205,7 +205,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1120 440 1176 456))
+	(annotation_block (location)(rect 632 360 688 376))
 )
 (pin
 	(output)
@@ -222,7 +222,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 448 1528 464))
+	(annotation_block (location)(rect 984 368 1040 384))
 )
 (pin
 	(output)
@@ -239,7 +239,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 384 1528 400))
+	(annotation_block (location)(rect 1008 304 1064 320))
 )
 (pin
 	(output)
@@ -256,7 +256,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 352 1528 368))
+	(annotation_block (location)(rect 1000 272 1056 288))
 )
 (pin
 	(output)
@@ -273,7 +273,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 312 1528 328))
+	(annotation_block (location)(rect 1000 232 1056 248))
 )
 (pin
 	(output)
@@ -290,7 +290,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 280 1528 296))
+	(annotation_block (location)(rect 1000 200 1056 216))
 )
 (pin
 	(output)
@@ -307,7 +307,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 248 1528 264))
+	(annotation_block (location)(rect 1000 168 1056 184))
 )
 (pin
 	(output)
@@ -324,7 +324,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 216 1528 232))
+	(annotation_block (location)(rect 984 136 1040 152))
 )
 (pin
 	(output)
@@ -341,7 +341,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 184 1528 200))
+	(annotation_block (location)(rect 992 104 1048 120))
 )
 (pin
 	(output)
@@ -358,7 +358,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12)(line_width 1))
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
-	(annotation_block (location)(rect 1472 416 1528 432))
+	(annotation_block (location)(rect 1008 336 1064 352))
 )
 (symbol
 	(rect 216 168 264 200)
@@ -668,7 +668,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 296 152 392 312)
+	(rect 288 152 384 312)
 	(text "coder_nda2_2" (rect 5 0 87 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 144 25 156)(font "Arial" ))
 	(port
@@ -753,44 +753,16 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 296 184)
-	(pt 264 184)
-)
-(connector
 	(pt 264 224)
 	(pt 272 224)
-)
-(connector
-	(pt 272 224)
-	(pt 272 200)
-)
-(connector
-	(pt 296 200)
-	(pt 272 200)
 )
 (connector
 	(pt 264 264)
 	(pt 280 264)
 )
 (connector
-	(pt 280 264)
-	(pt 280 216)
-)
-(connector
-	(pt 296 216)
-	(pt 280 216)
-)
-(connector
 	(pt 264 304)
 	(pt 288 304)
-)
-(connector
-	(pt 288 304)
-	(pt 288 232)
-)
-(connector
-	(pt 296 232)
-	(pt 288 232)
 )
 (connector
 	(pt 192 184)
@@ -809,40 +781,12 @@ applicable agreement for further details.
 	(pt 216 304)
 )
 (connector
-	(pt 392 216)
-	(pt 416 216)
-)
-(connector
-	(pt 392 264)
-	(pt 408 264)
-)
-(connector
-	(pt 392 248)
-	(pt 416 248)
-)
-(connector
-	(pt 392 232)
-	(pt 424 232)
-)
-(connector
 	(pt 416 192)
 	(pt 424 192)
 )
 (connector
-	(pt 416 216)
-	(pt 416 192)
-)
-(connector
 	(pt 408 152)
 	(pt 424 152)
-)
-(connector
-	(pt 408 200)
-	(pt 408 152)
-)
-(connector
-	(pt 400 184)
-	(pt 400 112)
 )
 (connector
 	(pt 400 112)
@@ -851,10 +795,6 @@ applicable agreement for further details.
 (connector
 	(pt 408 312)
 	(pt 424 312)
-)
-(connector
-	(pt 408 264)
-	(pt 408 312)
 )
 (connector
 	(pt 472 112)
@@ -957,32 +897,88 @@ applicable agreement for further details.
 	(pt 400 352)
 )
 (connector
-	(pt 400 352)
-	(pt 400 280)
-)
-(connector
-	(pt 400 280)
-	(pt 392 280)
-)
-(connector
-	(pt 400 184)
-	(pt 392 184)
-)
-(connector
-	(pt 392 200)
-	(pt 408 200)
-)
-(connector
-	(pt 416 248)
-	(pt 416 272)
-)
-(connector
 	(pt 416 272)
 	(pt 424 272)
 )
 (connector
 	(pt 472 272)
 	(pt 488 272)
+)
+(connector
+	(pt 264 184)
+	(pt 288 184)
+)
+(connector
+	(pt 272 224)
+	(pt 272 200)
+)
+(connector
+	(pt 272 200)
+	(pt 288 200)
+)
+(connector
+	(pt 280 264)
+	(pt 280 216)
+)
+(connector
+	(pt 280 216)
+	(pt 288 216)
+)
+(connector
+	(pt 288 304)
+	(pt 288 232)
+)
+(connector
+	(pt 416 192)
+	(pt 416 216)
+)
+(connector
+	(pt 408 152)
+	(pt 408 200)
+)
+(connector
+	(pt 400 112)
+	(pt 400 184)
+)
+(connector
+	(pt 408 312)
+	(pt 408 264)
+)
+(connector
+	(pt 400 352)
+	(pt 400 280)
+)
+(connector
+	(pt 416 272)
+	(pt 416 248)
+)
+(connector
+	(pt 384 184)
+	(pt 400 184)
+)
+(connector
+	(pt 384 200)
+	(pt 408 200)
+)
+(connector
+	(pt 384 216)
+	(pt 416 216)
+)
+(connector
+	(pt 384 232)
+	(pt 424 232)
+)
+(connector
+	(pt 384 248)
+	(pt 416 248)
+)
+(connector
+	(pt 384 264)
+	(pt 408 264)
+)
+(connector
+	(pt 384 280)
+	(pt 400 280)
 )
 (junction (pt 832 128))
 (junction (pt 832 96))

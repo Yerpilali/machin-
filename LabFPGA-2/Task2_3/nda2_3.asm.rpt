@@ -1,5 +1,5 @@
 Assembler report for nda2_3
-Tue Dec 21 13:38:59 2021
+Tue Dec 21 22:31:20 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Dec 21 13:38:59 2021 ;
+; Assembler Status      ; Successful - Tue Dec 21 22:31:20 2021 ;
 ; Revision Name         ; nda2_3                                ;
 ; Top-level Entity Name ; stand_nda2_3                          ;
 ; Family                ; Cyclone II                            ;
@@ -117,13 +117,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Dec 21 13:38:58 2021
+    Info: Processing started: Tue Dec 21 22:31:19 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off nda2_3 -c nda2_3
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 217 megabytes
-    Info: Processing ended: Tue Dec 21 13:38:59 2021
+    Info: Processing ended: Tue Dec 21 22:31:20 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

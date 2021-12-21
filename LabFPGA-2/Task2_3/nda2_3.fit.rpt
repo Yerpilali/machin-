@@ -1,5 +1,5 @@
 Fitter report for nda2_3
-Tue Dec 21 13:38:57 2021
+Tue Dec 21 22:31:18 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -58,7 +58,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +------------------------------------+----------------------------------------------+
-; Fitter Status                      ; Successful - Tue Dec 21 13:38:57 2021        ;
+; Fitter Status                      ; Successful - Tue Dec 21 22:31:18 2021        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; nda2_3                                       ;
 ; Top-level Entity Name              ; stand_nda2_3                                 ;
@@ -754,7 +754,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Dec 21 13:38:55 2021
+    Info: Processing started: Tue Dec 21 22:31:17 2021
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off nda2_3 -c nda2_3
 Info: Selected device EP2C8Q208C8 for design "nda2_3"
 Info: Low junction temperature is 0 degrees C
@@ -815,7 +815,7 @@ Info: Delay annotation completed successfully
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info: Quartus II Fitter was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 260 megabytes
-    Info: Processing ended: Tue Dec 21 13:38:57 2021
+    Info: Processing ended: Tue Dec 21 22:31:19 2021
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
