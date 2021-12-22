@@ -1,5 +1,5 @@
 Analysis & Synthesis report for nda1_1
-Thu Dec 16 12:49:13 2021
+Wed Dec 22 10:49:11 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +-------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Thu Dec 16 12:49:13 2021        ;
+; Analysis & Synthesis Status   ; Successful - Wed Dec 22 10:49:11 2021        ;
 ; Quartus II Version            ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                 ; nda1_1                                       ;
 ; Top-level Entity Name         ; nda1_1                                       ;
@@ -154,7 +154,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                  ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------+
-; nda1_1.bdf                       ; yes             ; User Block Diagram/Schematic File  ; Z:/5 сем машинки/LabFPGA-1/Task1_1/nda1_1.bdf ;
+; nda1_1.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/учёба/machin-/LabFPGA-1/Task1_1/nda1_1.bdf ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------+
 
 
@@ -229,7 +229,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Thu Dec 16 12:49:11 2021
+    Info: Processing started: Wed Dec 22 10:49:09 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off nda1_1 -c nda1_1
 Info: Found 1 design units, including 1 entities, in source file nda1_1.bdf
     Info: Found entity 1: nda1_1
@@ -239,9 +239,9 @@ Info: Implemented 5 device resources after synthesis - the final resource count 
     Info: Implemented 1 output pins
     Info: Implemented 1 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 216 megabytes
-    Info: Processing ended: Thu Dec 16 12:49:13 2021
+    Info: Peak virtual memory: 220 megabytes
+    Info: Processing ended: Wed Dec 22 10:49:11 2021
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -84,7 +84,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-1/Task1_3/db/nda1_3.sim.cvwf")
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 160000;
-		NUMERATOR = 1162;
+		NUMERATOR = 814;
 		DENOMINATOR = 160000;
 		TOP_INDEX = 0;
 	}

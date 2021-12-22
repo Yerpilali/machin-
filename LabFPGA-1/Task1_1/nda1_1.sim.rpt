@@ -1,5 +1,5 @@
 Simulator report for nda1_1
-Tue Dec 21 20:04:31 2021
+Wed Dec 22 10:51:30 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -44,10 +44,10 @@ applicable agreement for further details.
 ; Type                        ; Value        ;
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
-; Simulation End Time         ; 80.0 us      ;
+; Simulation End Time         ; 80.0 ns      ;
 ; Simulation Netlist Size     ; 7 nodes      ;
-; Simulation Coverage         ;     100.00 % ;
-; Total Number of Transitions ; 33605        ;
+; Simulation Coverage         ;      85.71 % ;
+; Total Number of Transitions ; 28           ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Stratix II   ;
 +-----------------------------+--------------+
@@ -94,13 +94,13 @@ Please use Quartus II to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;     100.00 % ;
+; Total coverage as a percentage                      ;      85.71 % ;
 ; Total nodes checked                                 ; 7            ;
 ; Total output ports checked                          ; 7            ;
-; Total output ports with complete 1/0-value coverage ; 7            ;
+; Total output ports with complete 1/0-value coverage ; 6            ;
 ; Total output ports with no 1/0-value coverage       ; 0            ;
 ; Total output ports with no 1-value coverage         ; 0            ;
-; Total output ports with no 0-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 1            ;
 +-----------------------------------------------------+--------------+
 
 
@@ -116,7 +116,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |nda1_1|C     ; |nda1_1|C        ; out              ;
 ; |nda1_1|B     ; |nda1_1|B        ; out              ;
 ; |nda1_1|inst3 ; |nda1_1|inst3    ; out0             ;
-; |nda1_1|A     ; |nda1_1|A        ; out              ;
 +---------------+------------------+------------------+
 
 
@@ -134,6 +133,8 @@ The following table displays output ports that do not toggle to 0 during simulat
 +-----------+------------------+------------------+
 ; Node Name ; Output Port Name ; Output Port Type ;
 +-----------+------------------+------------------+
+; |nda1_1|A ; |nda1_1|A        ; out              ;
++-----------+------------------+------------------+
 
 
 +---------------------+
@@ -149,18 +150,18 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Dec 21 20:04:31 2021
+    Info: Processing started: Wed Dec 22 10:51:30 2021
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off nda1_1 -c nda1_1
 Info: Using vector source file "C:/учёба/machin-/LabFPGA-1/Task1_1/nda1_1.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info: Simulation partitioned into 1 sub-simulations
-Info: Simulation coverage is     100.00 %
-Info: Number of transitions in simulation is 33605
+Info: Simulation coverage is      85.71 %
+Info: Number of transitions in simulation is 28
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 151 megabytes
-    Info: Processing ended: Tue Dec 21 20:04:31 2021
-    Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Processing ended: Wed Dec 22 10:51:31 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

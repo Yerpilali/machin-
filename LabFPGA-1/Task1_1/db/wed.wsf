@@ -122,13 +122,13 @@ VECTOR("Z:/5 сем машинки/LabFPGA-1/Task1_1/nda1_1.vwf")
 	}
 }
 
-VECTOR("C:/учёба/machin-/LabFPGA-1/Task1_1/nda1_1.vwf")
+VECTOR("C:/учёба/machin-/LabFPGA-1/Task1_1/db/nda1_1.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 0;
-		NUMERATOR = 0;
-		DENOMINATOR = 0;
+		ZEND = 80000;
+		NUMERATOR = 814;
+		DENOMINATOR = 80000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -173,13 +173,13 @@ VECTOR("C:/учёба/machin-/LabFPGA-1/Task1_1/nda1_1.vwf")
 	}
 }
 
-VECTOR("C:/учёба/machin-/LabFPGA-1/Task1_1/db/nda1_1.sim.cvwf")
+VECTOR("C:/учёба/machin-/LabFPGA-1/Task1_1/nda1_1.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 80000;
-		NUMERATOR = 1162;
-		DENOMINATOR = 80000;
+		ZEND = 80000000;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
