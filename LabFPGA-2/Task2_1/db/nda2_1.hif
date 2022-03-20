@@ -1,7 +1,7 @@
 Quartus II
 Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-7
-3700
+11
+936
 OFF
 OFF
 OFF
@@ -20,30 +20,10 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-coderLift_nda2_1
-# storage
-db|nda2_1.(0).cnf
-db|nda2_1.(0).cnf
-# case_insensitive
-# source_file
-coderlift_nda2_1.bdf
-3db5113399c3649c8d2a82836f01864
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-coderLift_nda2_1:inst
-}
-# macro_sequence
-
-# end
-# entity
 coderLiftStend_nda2_1
 # storage
-db|nda2_1.(1).cnf
-db|nda2_1.(1).cnf
+db|nda2_1.(0).cnf
+db|nda2_1.(0).cnf
 # case_insensitive
 # source_file
 coderliftstend_nda2_1.bdf
@@ -55,6 +35,26 @@ AUTO
 }
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+coderLift_nda2_1
+# storage
+db|nda2_1.(1).cnf
+db|nda2_1.(1).cnf
+# case_insensitive
+# source_file
+coderlift_nda2_1.bdf
+3db5113399c3649c8d2a82836f01864
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+coderLift_nda2_1:inst
 }
 # macro_sequence
 

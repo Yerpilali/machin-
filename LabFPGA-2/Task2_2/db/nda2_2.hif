@@ -20,26 +20,6 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-coder_stand_nda2_2
-# storage
-db|nda2_2.(0).cnf
-db|nda2_2.(0).cnf
-# case_insensitive
-# source_file
-coder_stand_nda2_2.bdf
-6b819dbb5192dd6291d328be6040c7
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 coder_nda2_2
 # storage
 db|nda2_2.(1).cnf
@@ -47,14 +27,71 @@ db|nda2_2.(1).cnf
 # case_insensitive
 # source_file
 coder_nda2_2.bdf
-1b3d1b4f6db03f6bbbe4bfad7bace7f7
+3c8cf98f386cc83ffc2bad8656de230
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+decoder_nda2_2
+# storage
+db|nda2_2.(3).cnf
+db|nda2_2.(3).cnf
+# case_insensitive
+# source_file
+decoder_nda2_2.bdf
+e89d2bdb939ed21e777f3bfd1ffbadd
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-coder_nda2_2:inst
+decoder_nda2_2:inst
+}
+# macro_sequence
+
+# end
+# entity
+shifrator_nda2_2
+# storage
+db|nda2_2.(2).cnf
+db|nda2_2.(2).cnf
+# case_insensitive
+# source_file
+shifrator_nda2_2.bdf
+498250f99e7657422d786b4904a11c6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+shifrator_nda2_2:inst1
+}
+# macro_sequence
+
+# end
+# entity
+coder_stand_nda2_2
+# storage
+db|nda2_2.(0).cnf
+db|nda2_2.(0).cnf
+# case_insensitive
+# source_file
+coder_stand_nda2_2.bdf
+bc142c94d346106876c07266e5623124
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 

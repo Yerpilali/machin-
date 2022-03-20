@@ -1,5 +1,5 @@
 Analysis & Synthesis report for nda2_1
-Sun Dec 19 17:23:25 2021
+Thu Dec 23 09:34:29 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -37,25 +37,24 @@ applicable agreement for further details.
 
 
 
-+------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                 ;
-+-------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sun Dec 19 17:23:25 2021        ;
-; Quartus II Version            ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
-; Revision Name                 ; nda2_1                                       ;
-; Top-level Entity Name         ; coderLiftStend_nda2_1                        ;
-; Family                        ; Stratix II                                   ;
-; Logic utilization             ; N/A                                          ;
-;     Combinational ALUTs       ; 3                                            ;
-;     Dedicated logic registers ; 0                                            ;
-; Total registers               ; 0                                            ;
-; Total pins                    ; 7                                            ;
-; Total virtual pins            ; 0                                            ;
-; Total block memory bits       ; 0                                            ;
-; DSP block 9-bit elements      ; 0                                            ;
-; Total PLLs                    ; 0                                            ;
-; Total DLLs                    ; 0                                            ;
-+-------------------------------+----------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                      ;
++------------------------------------+----------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Dec 23 09:34:29 2021        ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name                      ; nda2_1                                       ;
+; Top-level Entity Name              ; coderLiftStend_nda2_1                        ;
+; Family                             ; Cyclone II                                   ;
+; Total logic elements               ; 3                                            ;
+;     Total combinational functions  ; 3                                            ;
+;     Dedicated logic registers      ; 0                                            ;
+; Total registers                    ; 0                                            ;
+; Total pins                         ; 7                                            ;
+; Total virtual pins                 ; 0                                            ;
+; Total memory bits                  ; 0                                            ;
+; Embedded Multiplier 9-bit elements ; 0                                            ;
+; Total PLLs                         ; 0                                            ;
++------------------------------------+----------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------+
@@ -63,8 +62,9 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+-----------------------+--------------------+
 ; Option                                                                     ; Setting               ; Default Value      ;
 +----------------------------------------------------------------------------+-----------------------+--------------------+
+; Device                                                                     ; EP2C8Q208C8           ;                    ;
 ; Top-level entity name                                                      ; coderLiftStend_nda2_1 ; nda2_1             ;
-; Family name                                                                ; Stratix II            ; Stratix II         ;
+; Family name                                                                ; Cyclone II            ; Stratix II         ;
 ; Use Generated Physical Constraints File                                    ; Off                   ;                    ;
 ; Use smart compilation                                                      ; Off                   ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                    ; On                 ;
@@ -103,13 +103,11 @@ applicable agreement for further details.
 ; Perform WYSIWYG Primitive Resynthesis                                      ; Off                   ; Off                ;
 ; Auto ROM Replacement                                                       ; On                    ; On                 ;
 ; Auto RAM Replacement                                                       ; On                    ; On                 ;
-; Auto DSP Block Replacement                                                 ; On                    ; On                 ;
 ; Auto Shift Register Replacement                                            ; Auto                  ; Auto               ;
 ; Auto Clock Enable Replacement                                              ; On                    ; On                 ;
 ; Strict RAM Replacement                                                     ; Off                   ; Off                ;
 ; Allow Synchronous Control Signals                                          ; On                    ; On                 ;
 ; Force Use of Synchronous Clear Signals                                     ; Off                   ; Off                ;
-; Auto RAM Block Balancing                                                   ; On                    ; On                 ;
 ; Auto RAM to Logic Cell Conversion                                          ; Off                   ; Off                ;
 ; Auto Resource Sharing                                                      ; Off                   ; Off                ;
 ; Allow Any RAM Size For Recognition                                         ; Off                   ; Off                ;
@@ -159,54 +157,43 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------+
 
 
-+-------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary           ;
-+-----------------------------------------------+-------+
-; Resource                                      ; Usage ;
-+-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 3     ;
-; Dedicated logic registers                     ; 0     ;
-;                                               ;       ;
-; Estimated ALUTs Unavailable                   ; 0     ;
-;                                               ;       ;
-; Total combinational functions                 ; 3     ;
-; Combinational ALUT usage by number of inputs  ;       ;
-;     -- 7 input functions                      ; 0     ;
-;     -- 6 input functions                      ; 0     ;
-;     -- 5 input functions                      ; 0     ;
-;     -- 4 input functions                      ; 1     ;
-;     -- <=3 input functions                    ; 2     ;
-;                                               ;       ;
-; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 3     ;
-;     -- extended LUT mode                      ; 0     ;
-;     -- arithmetic mode                        ; 0     ;
-;     -- shared arithmetic mode                 ; 0     ;
-;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 3     ;
-;                                               ;       ;
-; Total registers                               ; 0     ;
-;     -- Dedicated logic registers              ; 0     ;
-;     -- I/O registers                          ; 0     ;
-;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 2     ;
-;                                               ;       ;
-; I/O pins                                      ; 7     ;
-; Maximum fan-out node                          ; SW1   ;
-; Maximum fan-out                               ; 3     ;
-; Total fan-out                                 ; 12    ;
-; Average fan-out                               ; 1.20  ;
-+-----------------------------------------------+-------+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 3     ;
+;                                             ;       ;
+; Total combinational functions               ; 3     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 1     ;
+;     -- 3 input functions                    ; 1     ;
+;     -- <=2 input functions                  ; 1     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 3     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 7     ;
+; Maximum fan-out node                        ; SW1   ;
+; Maximum fan-out                             ; 3     ;
+; Total fan-out                               ; 12    ;
+; Average fan-out                             ; 1.20  ;
++---------------------------------------------+-------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                    ;
-+----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                          ; Library Name ;
-+----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------+--------------+
-; |coderLiftStend_nda2_1     ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 7    ; 0            ; |coderLiftStend_nda2_1                       ; work         ;
-;    |coderLift_nda2_1:inst| ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |coderLiftStend_nda2_1|coderLift_nda2_1:inst ;              ;
-+----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                  ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                          ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+--------------+
+; |coderLiftStend_nda2_1     ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 7    ; 0            ; |coderLiftStend_nda2_1                       ; work         ;
+;    |coderLift_nda2_1:inst| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |coderLiftStend_nda2_1|coderLift_nda2_1:inst ;              ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -231,7 +218,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sun Dec 19 17:23:25 2021
+    Info: Processing started: Thu Dec 23 09:34:28 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off nda2_1 -c nda2_1
 Info: Found 1 design units, including 1 entities, in source file coderlift_nda2_1.bdf
     Info: Found entity 1: coderLift_nda2_1
@@ -244,9 +231,9 @@ Info: Implemented 10 device resources after synthesis - the final resource count
     Info: Implemented 3 output pins
     Info: Implemented 3 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 220 megabytes
-    Info: Processing ended: Sun Dec 19 17:23:25 2021
-    Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 222 megabytes
+    Info: Processing ended: Thu Dec 23 09:34:29 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
 
 

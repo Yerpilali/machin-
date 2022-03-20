@@ -199,17 +199,17 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/nda2_2.vwf")
 	}
 }
 
-VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
+VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/decoder_nda2_2.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 320000;
-		NUMERATOR = 1162;
-		DENOMINATOR = 320000;
+		ZEND = 1000000;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
-		PERIOD = 10000;
+		PERIOD = 20000;
 		OFFSET = 0;
 		DUTY_CYCLE = 50;
 	}
@@ -217,7 +217,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "A";
+		SIGNAL = "C2";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -225,7 +225,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "B";
+		SIGNAL = "C1";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -233,7 +233,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "C";
+		SIGNAL = "C0";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -241,7 +241,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "D";
+		SIGNAL = "A";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -249,7 +249,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "E";
+		SIGNAL = "B";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -257,7 +257,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "F";
+		SIGNAL = "C";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -265,7 +265,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "G";
+		SIGNAL = "D";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -273,7 +273,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "p127";
+		SIGNAL = "E";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -281,7 +281,7 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "p104";
+		SIGNAL = "F";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -289,56 +289,8 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "p105";
+		SIGNAL = "G";
 		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "p106";
-		INDEX = 10;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "p135";
-		INDEX = 11;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "p134";
-		INDEX = 12;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "p133";
-		INDEX = 13;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "p128";
-		INDEX = 14;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "p118";
-		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -446,6 +398,156 @@ VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/coder_nda2_2.vwf")
 	LINE{
 		SIGNAL = "G";
 		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/db/nda2_2.sim.cvwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 160000;
+		NUMERATOR = 814;
+		DENOMINATOR = 160000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "C0";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "C1";
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "C2";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s1";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s2";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s3";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s4";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("C:/учёба/machin-/LabFPGA-2/Task2_2/shifrator.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 160000;
+		NUMERATOR = 996;
+		DENOMINATOR = 160000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 160000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "C0";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "C1";
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "C2";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s1";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s2";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s3";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "s4";
+		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

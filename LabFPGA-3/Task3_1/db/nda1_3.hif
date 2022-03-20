@@ -1,0 +1,299 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+936
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+xor_nda1_3
+# storage
+db|nda1_3.(0).cnf
+db|nda1_3.(0).cnf
+# case_insensitive
+# source_file
+xor_nda1_3.bdf
+165df66290121ae9c0f043dc16a6423b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU_nda1_3:inst|xor_nda1_3:inst14
+ALU_nda1_3:inst|xor_nda1_3:inst15
+ALU_nda1_3:inst|xor_nda1_3:inst16
+ALU_nda1_3:inst|xor_nda1_3:inst17
+}
+# macro_sequence
+
+# end
+# entity
+HS_nda1_3
+# storage
+db|nda1_3.(1).cnf
+db|nda1_3.(1).cnf
+# case_insensitive
+# source_file
+hs_nda1_3.bdf
+73ea5d951b4857564556e30348b15a7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU_nda1_3:inst|SM_nda1_3:inst|HS_nda1_3:inst5
+ALU_nda1_3:inst|SM_nda1_3:inst|HS_nda1_3:inst4
+ALU_nda1_3:inst|SM_nda1_3:inst1|HS_nda1_3:inst5
+ALU_nda1_3:inst|SM_nda1_3:inst1|HS_nda1_3:inst4
+ALU_nda1_3:inst|SM_nda1_3:inst2|HS_nda1_3:inst5
+ALU_nda1_3:inst|SM_nda1_3:inst2|HS_nda1_3:inst4
+ALU_nda1_3:inst|SM_nda1_3:inst3|HS_nda1_3:inst5
+ALU_nda1_3:inst|SM_nda1_3:inst3|HS_nda1_3:inst4
+ALU_nda1_3:inst|SM_nda1_3:inst4|HS_nda1_3:inst5
+ALU_nda1_3:inst|SM_nda1_3:inst4|HS_nda1_3:inst4
+}
+# macro_sequence
+
+# end
+# entity
+SM_nda1_3
+# storage
+db|nda1_3.(2).cnf
+db|nda1_3.(2).cnf
+# case_insensitive
+# source_file
+sm_nda1_3.bdf
+4525dd7c2f66b9984384796a76ed4af9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU_nda1_3:inst|SM_nda1_3:inst
+ALU_nda1_3:inst|SM_nda1_3:inst1
+ALU_nda1_3:inst|SM_nda1_3:inst2
+ALU_nda1_3:inst|SM_nda1_3:inst3
+ALU_nda1_3:inst|SM_nda1_3:inst4
+}
+# macro_sequence
+
+# end
+# entity
+ALU_nda1_3
+# storage
+db|nda1_3.(3).cnf
+db|nda1_3.(3).cnf
+# case_insensitive
+# source_file
+alu_nda1_3.bdf
+754235766f3f1b896ba0a41a7c699937
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU_nda1_3:inst
+}
+# macro_sequence
+
+# end
+# entity
+decoder_nda2_3
+# storage
+db|nda1_3.(5).cnf
+db|nda1_3.(5).cnf
+# case_insensitive
+# source_file
+decoder_nda2_3.bdf
+69658e06745ed0f4e515288b4af13a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1
+}
+# macro_sequence
+
+# end
+# entity
+E-nda2_3
+# storage
+db|nda1_3.(6).cnf
+db|nda1_3.(6).cnf
+# case_insensitive
+# source_file
+e-nda2_3.bdf
+93cf98c2bc3955ad22db2f94bb224ac7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1|E-nda2_3:inst13
+}
+# macro_sequence
+
+# end
+# entity
+F-nda2_3
+# storage
+db|nda1_3.(7).cnf
+db|nda1_3.(7).cnf
+# case_insensitive
+# source_file
+f-nda2_3.bdf
+e857e11ddc89a52222f831b1bffad1b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1|F-nda2_3:inst14
+}
+# macro_sequence
+
+# end
+# entity
+G-nda2_3
+# storage
+db|nda1_3.(8).cnf
+db|nda1_3.(8).cnf
+# case_insensitive
+# source_file
+g-nda2_3.bdf
+d240552ffbc598857b714d43144b3b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1|G-nda2_3:inst15
+}
+# macro_sequence
+
+# end
+# entity
+A-nda2_3
+# storage
+db|nda1_3.(9).cnf
+db|nda1_3.(9).cnf
+# case_insensitive
+# source_file
+a-nda2_3.bdf
+65449ef33dddc42b254567a22a53c8ae
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1|A-nda2_3:inst
+}
+# macro_sequence
+
+# end
+# entity
+B-nda2_3
+# storage
+db|nda1_3.(10).cnf
+db|nda1_3.(10).cnf
+# case_insensitive
+# source_file
+b-nda2_3.bdf
+298b702098395318bb3dc083b35c61
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1|B-nda2_3:inst10
+}
+# macro_sequence
+
+# end
+# entity
+C-nda2_3
+# storage
+db|nda1_3.(11).cnf
+db|nda1_3.(11).cnf
+# case_insensitive
+# source_file
+c-nda2_3.bdf
+86355140286aafbc9d15b6947b193832
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1|C-nda2_3:inst11
+}
+# macro_sequence
+
+# end
+# entity
+D-nda2_3
+# storage
+db|nda1_3.(12).cnf
+db|nda1_3.(12).cnf
+# case_insensitive
+# source_file
+d-nda2_3.bdf
+d02f7e2146d6828375791d4a644ed24
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decoder_nda2_3:inst1|D-nda2_3:inst12
+}
+# macro_sequence
+
+# end
+# entity
+stand_nda1_3
+# storage
+db|nda1_3.(4).cnf
+db|nda1_3.(4).cnf
+# case_insensitive
+# source_file
+stand_nda1_3.bdf
+eba49fbd7e69257f11e1e809ee145e4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

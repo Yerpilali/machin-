@@ -1,5 +1,5 @@
 Analysis & Synthesis report for nda2_2
-Tue Dec 21 13:53:30 2021
+Sat Dec 25 11:26:30 2021
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -40,13 +40,13 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 21 13:53:30 2021        ;
+; Analysis & Synthesis Status        ; Successful - Sat Dec 25 11:26:30 2021        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; nda2_2                                       ;
 ; Top-level Entity Name              ; coder_stand_nda2_2                           ;
 ; Family                             ; Cyclone II                                   ;
-; Total logic elements               ; 7                                            ;
-;     Total combinational functions  ; 7                                            ;
+; Total logic elements               ; 6                                            ;
+;     Total combinational functions  ; 6                                            ;
 ;     Dedicated logic registers      ; 0                                            ;
 ; Total registers                    ; 0                                            ;
 ; Total pins                         ; 20                                           ;
@@ -152,8 +152,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                              ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
-; coder_nda2_2.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/учёба/machin-/LabFPGA-2/Task2_2/coder_nda2_2.bdf       ;
 ; coder_stand_nda2_2.bdf           ; yes             ; User Block Diagram/Schematic File  ; C:/учёба/machin-/LabFPGA-2/Task2_2/coder_stand_nda2_2.bdf ;
+; shifrator_nda2_2.bdf             ; yes             ; User Block Diagram/Schematic File  ; C:/учёба/machin-/LabFPGA-2/Task2_2/shifrator_nda2_2.bdf   ;
+; decoder_nda2_2.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/учёба/machin-/LabFPGA-2/Task2_2/decoder_nda2_2.bdf     ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
 
 
@@ -162,16 +163,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 7     ;
+; Estimated Total logic elements              ; 6     ;
 ;                                             ;       ;
-; Total combinational functions               ; 7     ;
+; Total combinational functions               ; 6     ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 6     ;
-;     -- 3 input functions                    ; 1     ;
+;     -- 4 input functions                    ; 4     ;
+;     -- 3 input functions                    ; 2     ;
 ;     -- <=2 input functions                  ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 7     ;
+;     -- normal mode                          ; 6     ;
 ;     -- arithmetic mode                      ; 0     ;
 ;                                             ;       ;
 ; Total registers                             ; 0     ;
@@ -179,21 +180,22 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
 ; I/O pins                                    ; 20    ;
-; Maximum fan-out node                        ; SW4   ;
-; Maximum fan-out                             ; 7     ;
-; Total fan-out                               ; 34    ;
-; Average fan-out                             ; 1.26  ;
+; Maximum fan-out node                        ; SW1   ;
+; Maximum fan-out                             ; 6     ;
+; Total fan-out                               ; 29    ;
+; Average fan-out                             ; 1.12  ;
 +---------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                           ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                   ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
-; |coder_stand_nda2_2        ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 20   ; 0            ; |coder_stand_nda2_2                   ; work         ;
-;    |coder_nda2_2:inst|     ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |coder_stand_nda2_2|coder_nda2_2:inst ;              ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                 ;
++-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------+--------------+
+; Compilation Hierarchy Node  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                        ; Library Name ;
++-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------+--------------+
+; |coder_stand_nda2_2         ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 20   ; 0            ; |coder_stand_nda2_2                        ; work         ;
+;    |decoder_nda2_2:inst|    ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |coder_stand_nda2_2|decoder_nda2_2:inst    ;              ;
+;    |shifrator_nda2_2:inst1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |coder_stand_nda2_2|shifrator_nda2_2:inst1 ;              ;
++-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -218,14 +220,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Dec 21 13:53:29 2021
+    Info: Processing started: Sat Dec 25 11:26:29 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off nda2_2 -c nda2_2
 Info: Found 1 design units, including 1 entities, in source file coder_nda2_2.bdf
     Info: Found entity 1: coder_nda2_2
 Info: Found 1 design units, including 1 entities, in source file coder_stand_nda2_2.bdf
     Info: Found entity 1: coder_stand_nda2_2
+Info: Found 1 design units, including 1 entities, in source file shifrator_nda2_2.bdf
+    Info: Found entity 1: shifrator_nda2_2
+Info: Found 1 design units, including 1 entities, in source file decoder_nda2_2.bdf
+    Info: Found entity 1: decoder_nda2_2
 Info: Elaborating entity "coder_stand_nda2_2" for the top level hierarchy
-Info: Elaborating entity "coder_nda2_2" for hierarchy "coder_nda2_2:inst"
+Info: Elaborating entity "decoder_nda2_2" for hierarchy "decoder_nda2_2:inst"
+Info: Elaborating entity "shifrator_nda2_2" for hierarchy "shifrator_nda2_2:inst1"
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "p127" is stuck at GND
     Warning (13410): Pin "p104" is stuck at VCC
@@ -239,13 +246,13 @@ Warning: Output pins are stuck at VCC or GND
 Warning: Ignored assignments for entity "nda2_2" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity nda2_2 -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity nda2_2 -section_id "Root Region" was ignored
-Info: Implemented 27 device resources after synthesis - the final resource count might be different
+Info: Implemented 26 device resources after synthesis - the final resource count might be different
     Info: Implemented 4 input pins
     Info: Implemented 16 output pins
-    Info: Implemented 7 logic cells
+    Info: Implemented 6 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 13 warnings
     Info: Peak virtual memory: 222 megabytes
-    Info: Processing ended: Tue Dec 21 13:53:30 2021
+    Info: Processing ended: Sat Dec 25 11:26:30 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:02
 

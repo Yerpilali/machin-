@@ -50,7 +50,6 @@ set_global_assignment -name LL_ROOT_REGION ON -entity nda2_3 -section_id "Root R
 set_global_assignment -name LL_MEMBER_STATE LOCKED -entity nda2_3 -section_id "Root Region"
 set_global_assignment -name VECTOR_WAVEFORM_FILE cont_nda2_3.vwf
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE cont_nda2_3.vwf
 set_global_assignment -name BDF_FILE stand_nda2_3.bdf
 set_location_assignment PIN_110 -to A
 set_location_assignment PIN_112 -to B
@@ -72,6 +71,24 @@ set_location_assignment PIN_144 -to SW1
 set_location_assignment PIN_145 -to SW2
 set_location_assignment PIN_146 -to SW3
 set_location_assignment PIN_147 -to SW4
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name BDF_FILE enccoder_nda2_3.bdf
+set_global_assignment -name BDF_FILE "A-nda2_3.bdf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE "A-nda2_3.vwf"
+set_global_assignment -name BDF_FILE "B-nda2_3.bdf"
+set_global_assignment -name BDF_FILE "C-nda2_3.bdf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE "B-nda2_3.vwf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE "C-nda2_3.vwf"
+set_global_assignment -name BDF_FILE "D-nda2_3.bdf"
+set_global_assignment -name BDF_FILE "E-nda2_3.bdf"
+set_global_assignment -name BDF_FILE "F-nda2_3.bdf"
+set_global_assignment -name BDF_FILE "G-nda2_3.bdf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE "D-nda2_3.vwf"
+set_global_assignment -name BDF_FILE decoder_nda2_3.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE enc_nda2_3.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE enc_nda2_3.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"

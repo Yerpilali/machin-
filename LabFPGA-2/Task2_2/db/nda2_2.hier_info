@@ -21,41 +21,38 @@ p128 <= <VCC>
 p118 <= <VCC>
 
 
-|coder_stand_nda2_2|coder_nda2_2:inst
-A <= for_A.DB_MAX_OUTPUT_PORT_TYPE
-S2 => n4_2.IN0
-S2 => n2.IN0
-S2 => n2.IN1
-S2 => n4_2_1.IN1
-S2 => n4_n3_2.IN2
-S2 => n3_2.IN0
-S2 => 2_n1.IN1
-S2 => 4_2.IN0
-S4 => n4.IN0
-S4 => n4.IN1
-S4 => 4_n3_n2.IN0
-S4 => 4_3.IN1
-S4 => 4_2.IN1
-S4 => 4_n1.IN1
-S3 => n3.IN0
-S3 => n3.IN1
-S3 => n4_3_1.IN1
-S3 => n4_3_n2_n1.IN2
-S3 => 3_n2_1.IN0
-S3 => 4_3.IN0
-S3 => 3_n2.IN1
-S3 => 3_n1.IN1
-S1 => n4_3_1.IN2
-S1 => n1.IN0
-S1 => n1.IN1
-S1 => n4_n3_1.IN2
-S1 => n4_2_1.IN2
-S1 => 3_n2_1.IN2
-B <= for_b.DB_MAX_OUTPUT_PORT_TYPE
-C <= for_C.DB_MAX_OUTPUT_PORT_TYPE
-D <= for_D.DB_MAX_OUTPUT_PORT_TYPE
-E <= for_E.DB_MAX_OUTPUT_PORT_TYPE
-F <= for_F.DB_MAX_OUTPUT_PORT_TYPE
-G <= for_G.DB_MAX_OUTPUT_PORT_TYPE
+|coder_stand_nda2_2|decoder_nda2_2:inst
+A <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst22.IN0
+C1 => inst20.IN0
+C1 => inst20.IN1
+C1 => inst28.IN1
+C2 => inst21.IN0
+C2 => inst21.IN1
+C2 => inst29.IN2
+C <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+C0 => inst25.IN1
+C0 => inst.IN0
+C0 => inst.IN1
+C0 => inst27.IN0
+D <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+B <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|coder_stand_nda2_2|shifrator_nda2_2:inst1
+C0 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+S3 => inst.IN0
+S3 => inst9.IN0
+S3 => inst8.IN1
+S1 => inst.IN1
+S1 => inst18.IN0
+C1 <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+S2 => inst9.IN1
+S4 => inst10.IN0
+S4 => inst10.IN1
+C2 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
 
 
